@@ -1,10 +1,24 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.tsx'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "./index.css";
+import App from "./App.tsx";
 
-createRoot(document.getElementById('root')!).render(
+createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <App />
-  </StrictMode>,
-)
+  </StrictMode>
+);
+
+import "./task-1.ts";
+import "./task-2.ts";
+import "./task-3.ts";
+import "./task-4.ts";
+import "./task-5.ts";
+import "./task-6.ts";
+import "./task-7.ts";
+import "./task-8.ts";
+import "./task-9.ts";
+import "./task-10.ts";
+import "./task-11.ts";
+import "./task-12.ts";
+import "./task-13.ts";
